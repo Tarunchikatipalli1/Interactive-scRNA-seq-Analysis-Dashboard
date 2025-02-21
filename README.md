@@ -22,20 +22,20 @@ This Shiny app provides an interactive dashboard for analyzing single-cell RNA s
 
 To run the app locally, follow these steps:
 
-1. Clone the repository:
+**1. Clone the repository:**
 
 ```bash
 git clone https://github.com/Tarunchikatipalli1/Interactive-scRNA-seq-Analysis-Dashboard.git
 cd Interactive-scRNA-seq-Analysis-Dashboard
 ```
 
-2. Open R and install required dependencies if not already installed:
+**2. Open R and install required dependencies if not already installed:**
 
 ```bash
 install.packages(c("shiny", "shinydashboard", "shinyjs", "Seurat", "shinydashboardPlus", "shinyWidgets", "dplyr"))
 ```
 
-3. Run the Shiny app:
+**3. Run the Shiny app:**
 
 ```bash
 library(shiny)
@@ -65,11 +65,11 @@ runApp(".")
 
 ### File Structure
 
-Shinyapp.R: Defines the UI and server logic for the app.
+**Shinyapp.R:** Defines the UI and server logic for the app.
 
-config.R: Contains global configurations and functions for loading and processing Seurat objects.
+**config.R:** Contains global configurations and functions for loading and processing Seurat objects.
 
-seurat_object.R: Sample script for creating a Seurat object from raw data.
+**seurat_object.R:** Sample script for creating a Seurat object from raw data.
 
 ### Acknowledgments
 
