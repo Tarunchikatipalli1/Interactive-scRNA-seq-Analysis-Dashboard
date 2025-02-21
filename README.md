@@ -40,11 +40,11 @@ library(shiny)
 runApp(".")
 ```
 
-### Usage
+### How to Use This App
 
 Upload Seurat Object:
 
-Use the "Upload File" button to upload a Seurat object (.rds format).
+- Use the "Upload File" button to upload a Seurat object (.rds format).
 
 Run Analysis:
 
