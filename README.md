@@ -1,4 +1,6 @@
 ## Interactive scRNA-seq Analysis Dashboard
+This Shiny application enables interactive analysis and visualization of single-cell RNA sequencing (scRNAseq) data using the Seurat package in R.
+- http://127.0.0.1:5646/
 
 ### Overview
 
