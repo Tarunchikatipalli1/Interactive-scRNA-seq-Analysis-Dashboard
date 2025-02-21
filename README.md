@@ -44,11 +44,11 @@ runApp(".")
 
 ### How to Use This App
 
-Upload Seurat Object:
+**Upload Seurat Object:**
 
 - Use the "Upload File" button to upload a Seurat object (.rds format).
 
-Run Analysis:
+**Run Analysis:**
 
 - Press "Run" to start processing the data.
 
@@ -58,7 +58,7 @@ Run Analysis:
 
 - Select a gene to visualize its expression.
 
-Download Results:
+**Download Results:**
 
 - Use the download buttons to save UMAP and gene expression plots.
 
