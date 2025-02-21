@@ -48,29 +48,29 @@ Use the "Upload File" button to upload a Seurat object (.rds format).
 
 2. Run Analysis:
 
-Press "Run" to start processing the data.
+- Press "Run" to start processing the data.
 
-View UMAP plots and gene expression features.
+- View UMAP plots and gene expression features.
 
-Select a metadata column to color the UMAP plot.
+- Select a metadata column to color the UMAP plot.
 
-Select a gene to visualize its expression.
+- Select a gene to visualize its expression.
 
 3. Download Results:
 
-Use the download buttons to save UMAP and gene expression plots.
+- Use the download buttons to save UMAP and gene expression plots.
 
 4. Reset Analysis:
 
-Press "Reset" to clear uploaded files and restart the app.
+- Press "Reset" to clear uploaded files and restart the app.
 
 ### File Structure
 
-Shinyapp.R: Defines the UI and server logic for the app.
+- Shinyapp.R: Defines the UI and server logic for the app.
 
-config.R: Contains global configurations and functions for loading and processing Seurat objects.
+- config.R: Contains global configurations and functions for loading and processing Seurat objects.
 
-seurat_object.R: Sample script for creating a Seurat object from raw data.
+- seurat_object.R: Sample script for creating a Seurat object from raw data.
 
 ### Acknowledgments
 
